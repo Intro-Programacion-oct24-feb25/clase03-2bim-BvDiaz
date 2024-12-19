@@ -51,7 +51,7 @@ public class Ejemplo01 {
         // Presentación de resultados
         for (int i = 0; i < nombresEstudiante.length; i++) {
             reporte = String.format("%sEstudiante %s tiene una sumataria "
-                    + "de notas: %.3f; con un promedio%s\n",
+                    + "de notas: %.3f; con un promedio %s\n",
                     reporte,
                     nombresEstudiante[i],
                     sumaNotas[i],
